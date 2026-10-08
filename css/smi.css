@@ -1,0 +1,184 @@
+/* Sri Maruthi Industries - overrides on top of the Industry template */
+.logo-header img { height: 54px; width: auto; max-width: none; }
+.logo-header.mostion { width: auto; }
+.smi-foot-logo { height: 56px; width: auto; }
+.smi-call { color: #fff; font-weight: 600; font-size: 15px; white-space: nowrap; }
+.smi-call i { font-size: 20px; vertical-align: middle; }
+.story-img { width: 100%; height: 380px; object-fit: cover; }
+.project-bx .dlab-media img, .prod-img { width: 100%; height: 240px; object-fit: cover; }
+.prod-img { height: 220px; }
+.smi-mach .dlab-media img { height: 220px; }
+.smi-eyebrow { display: inline-block; color: #d2151e; font-weight: 700; letter-spacing: 3px; font-size: 13px; margin-bottom: 10px; }
+.smi-card { background: #fff; box-shadow: 0 3px 10px rgba(0,0,0,.08); height: 100%; }
+.smi-card .icon-bx-sm { font-size: 44px; line-height: 1; }
+.smi-card h4 { margin-bottom: 10px; }
+.smi-list { padding-left: 0; list-style: none; margin: 0; }
+.smi-list li { position: relative; padding-left: 22px; margin-bottom: 8px; font-size: 15px; }
+.smi-list li:before { content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; position: absolute; left: 0; top: 2px; color: #d2151e; font-size: 12px; }
+.smi-counters { padding: 50px 0 20px; }
+.smi-counters .counter-style-5 { color: #fff; font-size: 52px; font-weight: 700; line-height: 1.1; }
+.smi-counters .counter-text { display: block; font-size: 15px; font-weight: 500; margin-top: 8px; opacity: .9; }
+.smi-person { background: #fff; text-align: center; padding: 30px 20px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,.08); height: 100%; }
+.smi-person .avatar { width: 84px; height: 84px; border-radius: 50%; background: #d2151e; color: #fff; font-size: 28px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
+.smi-person h4 { margin: 0 0 4px; font-size: 19px; }
+.smi-person span { color: #666; font-size: 14px; }
+.smi-dept { background: #fff; border-left: 4px solid #d2151e; padding: 20px 22px; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.08); height: 100%; }
+.smi-dept h5 { color: #d2151e; margin: 0 0 6px; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; }
+.smi-dept strong { display: block; font-size: 17px; }
+.smi-dept p { margin: 6px 0 0; font-size: 14px; color: #666; }
+.smi-goals { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; }
+.smi-goal { background: #fff; padding: 14px 16px; border-radius: 4px; display: flex; gap: 12px; align-items: center; box-shadow: 0 3px 15px rgba(0,0,0,.06); }
+.smi-goal span { flex: 0 0 32px; height: 32px; border-radius: 50%; background: #d2151e; color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+.smi-timeline { list-style: none; padding: 0; margin: 20px 0 0; border-left: 3px solid #d2151e; }
+.smi-timeline li { padding: 4px 0 4px 16px; }
+.smi-timeline b { color: #d2151e; margin-right: 8px; }
+.smi-table { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.08); margin: 0; }
+.smi-table thead th { background: #d2151e; color: #fff; border: 0; font-weight: 600; white-space: nowrap; }
+.smi-table td { vertical-align: middle; }
+.smi-map { width: 100%; height: 100%; min-height: 420px; border: 0; border-radius: 6px; }
+.section-head .title, .on-show-slider .title { text-transform: none; }
+@media (max-width: 991px) { .logo-header img { height: 44px; } .story-img { height: 280px; } .smi-call { display: none; } }
+.smi-card .icon-bx-sm i { font-size: 46px; }
+.smi-card .icon-bx-sm { height: auto; width: auto; }
+.smi-mach .dlab-media { background: #eef0ee; }
+.smi-mach .dlab-media img.contain { object-fit: contain; }
+.smi-cert { display: block; background: #fff; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,.1); padding: 10px; text-align: center; color: #222; }
+.smi-cert img { width: 100%; height: 300px; object-fit: contain; background: #f4f4f4; }
+.smi-cert span { display: block; font-size: 14px; font-weight: 600; margin-top: 8px; }
+.smi-cert:hover { box-shadow: 0 8px 18px rgba(210,21,30,.25); }
+.smi-map { height: calc(100% - 70px); }
+.smi-person .avatar { overflow: hidden; }
+.smi-person .avatar img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.smi-dept { display: flex; gap: 16px; align-items: flex-start; }
+.smi-dept img { flex: 0 0 76px; width: 76px; height: 92px; object-fit: cover; object-position: top; border-radius: 4px; }
+.smi-cert-gallery .smi-cert img { height: 220px; }
+.smi-cert-top { display: block; margin-bottom: 18px; background: #f4f4f4; border-radius: 4px; text-align: center; }
+.smi-cert-top img { height: 260px; width: auto; max-width: 100%; object-fit: contain; }
+.smi-logo { background: #fff; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.08); height: 110px; display: flex; align-items: center; justify-content: center; padding: 18px 22px; transition: transform .2s, box-shadow .2s; }
+.smi-logo:hover { transform: translateY(-4px); box-shadow: 0 8px 28px rgba(210,21,30,.2); }
+.smi-logo img { max-width: 100%; max-height: 64px; width: auto; height: auto; object-fit: contain; }
+.smi-logo-text span { font-weight: 700; font-size: 17px; color: #3a3a3a; text-align: center; letter-spacing: .5px; line-height: 1.2; }
+/* customer logo marquee: scrolls left to right */
+.smi-marquee { overflow: hidden; padding: 10px 0 30px; position: relative; }
+.smi-marquee::before, .smi-marquee::after { content: ''; position: absolute; top: 0; bottom: 0; width: 8%; z-index: 2; pointer-events: none; }
+.smi-marquee::before { left: 0; background: linear-gradient(90deg, var(--mq, #fff), transparent); }
+.smi-marquee::after { right: 0; background: linear-gradient(270deg, var(--mq, #fff), transparent); }
+.smi-track { display: flex; width: max-content; will-change: transform; animation: smi-scroll 45s linear infinite; }
+.smi-marquee:hover .smi-track { animation-play-state: paused; }
+.smi-marquee .smi-logo { flex: 0 0 240px; width: 240px; margin: 0 14px; }
+@keyframes smi-scroll { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+@media (prefers-reduced-motion: reduce) { .smi-track { animation: none; } .smi-marquee { overflow-x: auto; } }
+@media (max-width: 575px) { .smi-marquee .smi-logo { flex-basis: 180px; width: 180px; } }
+/* hero poster: reserve full-screen height before the slider script runs */
+#welcome_wrapper { min-height: 100vh; }
+/* static hero copy shown instantly, replaced by the slider once it is running */
+.smi-hero-static { position: absolute; inset: 0; display: flex; align-items: center; padding-top: 40px; background: rgba(0,0,0,.38); z-index: 3; color: #fff; transition: opacity .6s ease, visibility .6s ease; }
+.smi-hero-static.done { opacity: 0; visibility: hidden; pointer-events: none; }
+.smi-hero-static .container { width: 100%; }
+.smi-hero-static h1 { color: #fff; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 65px; line-height: 80px; letter-spacing: 2px; margin: 0 0 24px; text-shadow: 0 2px 12px rgba(0,0,0,.35); }
+.smi-hero-static p { max-width: 640px; font-family: 'Poppins', sans-serif; font-size: 18px; line-height: 30px; margin: 0 0 40px; text-shadow: 0 1px 8px rgba(0,0,0,.5); }
+.smi-hero-btn { display: inline-block; background: #d2151e; color: #fff; padding: 15px 30px; margin-right: 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; }
+.smi-hero-btn:hover { color: #fff; opacity: .9; }
+@media (max-width: 991px) { .smi-hero-static { text-align: center; } .smi-hero-static h1 { font-size: 32px; line-height: 38px; } .smi-hero-static p { font-size: 14px; line-height: 22px; margin-left: auto; margin-right: auto; } }
+@media (max-width: 575px) { .smi-hero-static h1 { font-size: 22px; line-height: 28px; } .smi-hero-btn { padding: 10px 20px; margin: 0 4px; } }
+/* product tables: aligned columns, uniform picture boxes */
+.smi-table { table-layout: fixed; width: 100%; }
+.smi-table th, .smi-table td { vertical-align: middle; padding: 12px 14px; }
+.smi-pic th:first-child, .smi-pic td:first-child { width: 80px; text-align: center; }
+.smi-pic th:last-child, .smi-pic td:last-child { width: 210px; text-align: center; }
+.smi-pic td:last-child .tbl-img { display: block; margin: 0 auto; width: 180px; height: 84px; object-fit: contain; background: #f4f4f4; border: 1px solid #e6e6e6; border-radius: 4px; padding: 4px; }
+@media (max-width: 767px) { .smi-pic th:last-child, .smi-pic td:last-child { width: 130px; } .smi-pic td:last-child .tbl-img { width: 110px; height: 64px; } .smi-pic th:first-child, .smi-pic td:first-child { width: 56px; } }
+/* plain tables (machine list, instruments) */
+.smi-plain th, .smi-plain td { text-align: left; word-break: normal; overflow-wrap: break-word; }
+.smi-plain th:nth-child(1), .smi-plain td:nth-child(1) { width: 32%; }
+.smi-plain th:nth-child(2), .smi-plain td:nth-child(2) { width: 30%; }
+.smi-plain.smi-two th:nth-child(1), .smi-plain.smi-two td:nth-child(1) { width: 34%; }
+@media (max-width: 767px) { .smi-plain th, .smi-plain td { font-size: 13px; padding: 10px 8px; } }
+/* equal-height service cards */
+.img-carousel-dots .owl-stage { display: flex; }
+.img-carousel-dots .owl-item { display: flex; }
+.img-carousel-dots .owl-item .item { width: 100%; display: flex; }
+.img-carousel-dots .service-box.style1 { width: 100%; min-height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; }
+.img-carousel-dots .service-box.style1 .title { margin-top: 0; }
+/* equal-height certificate cards */
+.smi-cert-gallery > div { display: flex; }
+.smi-cert-gallery .smi-cert { width: 100%; display: flex; flex-direction: column; }
+.smi-cert-gallery .smi-cert img { flex: 0 0 auto; }
+.smi-cert-gallery .smi-cert span { min-height: 44px; display: flex; align-items: center; justify-content: center; margin-top: 10px; line-height: 1.3; }
+
+/* ===== Card design refresh ===== */
+:root { --smi-red: #d2151e; --smi-shadow: 0 3px 10px rgba(20,20,40,.09); --smi-shadow-hover: 0 8px 20px rgba(210,21,30,.2); }
+.smi-card, .service-box.style1, .smi-person, .smi-dept, .smi-cert, .smi-logo, .smi-goal, .project-bx .dlab-media {
+  border-radius: 12px;
+}
+/* shared card base: accent line that grows on hover */
+.smi-card, .service-box.style1, .smi-person, .smi-cert, .smi-logo {
+  position: relative; overflow: hidden; background: #fff; border: 1px solid rgba(20,20,40,.06);
+  box-shadow: var(--smi-shadow); transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+.smi-card::after, .service-box.style1::after, .smi-person::after, .smi-cert::after, .smi-logo::after {
+  content: ""; position: absolute; left: 0; bottom: 0; height: 4px; width: 0; background: linear-gradient(90deg, var(--smi-red), #ff5a4f); transition: width .4s ease;
+}
+.smi-card:hover, .service-box.style1:hover, .smi-person:hover, .smi-cert:hover, .smi-logo:hover {
+  transform: translateY(-8px); box-shadow: var(--smi-shadow-hover); border-color: rgba(210,21,30,.25);
+}
+.smi-card:hover::after, .service-box.style1:hover::after, .smi-person:hover::after, .smi-cert:hover::after, .smi-logo:hover::after { width: 100%; }
+
+/* icon cards: icon in a tinted circle that fills on hover */
+.smi-card .icon-bx-sm { width: 76px; height: 76px; border-radius: 50%; background: rgba(210,21,30,.09); display: flex; align-items: center; justify-content: center; transition: background .3s, transform .3s; }
+.smi-card .icon-bx-sm i { font-size: 38px; line-height: 1; transition: color .3s; }
+.smi-card:hover .icon-bx-sm { background: var(--smi-red); transform: rotate(-6deg) scale(1.05); }
+.smi-card:hover .icon-bx-sm i { color: #fff !important; }
+.smi-card h4 { font-weight: 600; }
+
+/* service cards */
+.service-box.style1 { padding: 34px 20px 28px; box-shadow: var(--smi-shadow); }
+.service-box.style1 .icon-xl { width: 110px; height: 110px; border-radius: 50%; background: rgba(210,21,30,.08); display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto; transition: background .3s, transform .3s; }
+.service-box.style1:hover .icon-xl { background: var(--smi-red); transform: scale(1.06); }
+.service-box.style1:hover .icon-xl i, .service-box.style1:hover .icon-xl a { color: #fff !important; }
+.service-box.style1 .title { font-weight: 600; font-size: 20px; }
+
+/* leadership cards */
+.smi-person { padding: 34px 20px 30px; background: linear-gradient(180deg, #fff 0%, #fff 55%, #fdf3f3 100%); }
+.smi-person .avatar { width: 104px; height: 104px; border: 4px solid #fff; box-shadow: 0 0 0 3px var(--smi-red), 0 8px 20px rgba(210,21,30,.25); transition: transform .3s; }
+.smi-person:hover .avatar { transform: scale(1.06); }
+.smi-person h4 { font-weight: 600; }
+.smi-person span { display: inline-block; margin-top: 4px; padding: 3px 12px; border-radius: 20px; background: rgba(210,21,30,.08); color: var(--smi-red); font-size: 13px; font-weight: 500; }
+
+/* department cards */
+.smi-dept { border: 1px solid rgba(20,20,40,.06); border-left: 4px solid var(--smi-red); box-shadow: var(--smi-shadow); transition: transform .3s, box-shadow .3s; }
+.smi-dept:hover { transform: translateY(-6px); box-shadow: var(--smi-shadow-hover); }
+.smi-dept img { border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,.15); }
+
+/* certificates */
+.smi-cert { padding: 12px; }
+.smi-cert img { border-radius: 8px; transition: transform .4s; }
+.smi-cert:hover img { transform: scale(1.04); }
+.smi-cert span { color: #222; }
+.smi-cert-top { border-radius: 10px; overflow: hidden; }
+
+/* customer logo tiles */
+.smi-logo { border-radius: 12px; }
+.smi-logo img { transition: transform .3s; }
+.smi-logo:hover img { transform: scale(1.08); }
+
+/* product / machine photo cards */
+.project-bx .dlab-media { overflow: hidden; border-radius: 12px; box-shadow: var(--smi-shadow); transition: box-shadow .3s, transform .3s; }
+.project-bx:hover .dlab-media { box-shadow: var(--smi-shadow-hover); transform: translateY(-6px); }
+.project-bx .dlab-info { border-radius: 8px; }
+.smi-mach .dlab-info p { color: #666; }
+
+/* goals + counters */
+.smi-goal { border: 1px solid rgba(20,20,40,.06); transition: transform .3s, box-shadow .3s; }
+.smi-goal:hover { transform: translateY(-4px); box-shadow: var(--smi-shadow-hover); }
+.smi-counters .counter-style-5 { border-radius: 14px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.25); padding: 28px 10px; transition: transform .3s, background .3s; }
+.smi-counters .counter-style-5:hover { transform: translateY(-6px); background: rgba(255,255,255,.16); }
+.smi-table { border-radius: 12px; overflow: hidden; }
+.inquiry-form, .smi-map { border-radius: 12px; }
+@media (prefers-reduced-motion: reduce) { .smi-card, .service-box.style1, .smi-person, .smi-cert, .smi-logo, .smi-dept, .smi-goal, .project-bx .dlab-media { transition: none; } }
+.bg-gray .smi-marquee { --mq: #f7f9fb; }
+.bg-white .smi-marquee { --mq: #fff; }
+.smi-form-msg { margin-top: 14px; font-size: 14px; font-weight: 500; line-height: 1.5; border-radius: 6px; }
+.smi-form-msg.ok:not(:empty) { padding: 12px 14px; background: #e8f7ee; color: #176b3a; border: 1px solid #b6e3c7; }
+.smi-form-msg.err:not(:empty) { padding: 12px 14px; background: #fdecec; color: #a3131b; border: 1px solid #f3b9bc; }
+#smiSend[disabled] { opacity: .7; cursor: wait; }
