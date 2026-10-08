@@ -1,5 +1,5 @@
 /* Sri Maruthi Industries - overrides on top of the Industry template */
-.logo-header img { height: 54px; width: auto; max-width: none; }
+.logo-header img { max-width: none; }
 .logo-header.mostion { width: auto; }
 .smi-foot-logo { height: 56px; width: auto; }
 .smi-call { color: #fff; font-weight: 600; font-size: 15px; white-space: nowrap; }
@@ -8,32 +8,32 @@
 .project-bx .dlab-media img, .prod-img { width: 100%; height: 240px; object-fit: cover; }
 .prod-img { height: 220px; }
 .smi-mach .dlab-media img { height: 220px; }
-.smi-eyebrow { display: inline-block; color: #d2151e; font-weight: 700; letter-spacing: 3px; font-size: 13px; margin-bottom: 10px; }
+.smi-eyebrow { display: inline-block; color: #123a6e; font-weight: 700; letter-spacing: 3px; font-size: 13px; margin-bottom: 10px; }
 .smi-card { background: #fff; box-shadow: 0 3px 10px rgba(0,0,0,.08); height: 100%; }
 .smi-card .icon-bx-sm { font-size: 44px; line-height: 1; }
 .smi-card h4 { margin-bottom: 10px; }
 .smi-list { padding-left: 0; list-style: none; margin: 0; }
 .smi-list li { position: relative; padding-left: 22px; margin-bottom: 8px; font-size: 15px; }
-.smi-list li:before { content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; position: absolute; left: 0; top: 2px; color: #d2151e; font-size: 12px; }
+.smi-list li:before { content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; position: absolute; left: 0; top: 2px; color: #123a6e; font-size: 12px; }
 .smi-counters { padding: 50px 0 20px; }
 .smi-counters .counter-style-5 { color: #fff; font-size: 52px; font-weight: 700; line-height: 1.1; }
 .smi-counters .counter-text { display: block; font-size: 15px; font-weight: 500; margin-top: 8px; opacity: .9; }
 .smi-person { background: #fff; text-align: center; padding: 30px 20px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,.08); height: 100%; }
-.smi-person .avatar { width: 84px; height: 84px; border-radius: 50%; background: #d2151e; color: #fff; font-size: 28px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
+.smi-person .avatar { width: 84px; height: 84px; border-radius: 50%; background: #123a6e; color: #fff; font-size: 28px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
 .smi-person h4 { margin: 0 0 4px; font-size: 19px; }
 .smi-person span { color: #666; font-size: 14px; }
-.smi-dept { background: #fff; border-left: 4px solid #d2151e; padding: 20px 22px; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.08); height: 100%; }
-.smi-dept h5 { color: #d2151e; margin: 0 0 6px; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; }
+.smi-dept { background: #fff; border-left: 4px solid #123a6e; padding: 20px 22px; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.08); height: 100%; }
+.smi-dept h5 { color: #123a6e; margin: 0 0 6px; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; }
 .smi-dept strong { display: block; font-size: 17px; }
 .smi-dept p { margin: 6px 0 0; font-size: 14px; color: #666; }
 .smi-goals { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; }
 .smi-goal { background: #fff; padding: 14px 16px; border-radius: 4px; display: flex; gap: 12px; align-items: center; box-shadow: 0 3px 15px rgba(0,0,0,.06); }
-.smi-goal span { flex: 0 0 32px; height: 32px; border-radius: 50%; background: #d2151e; color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
-.smi-timeline { list-style: none; padding: 0; margin: 20px 0 0; border-left: 3px solid #d2151e; }
+.smi-goal span { flex: 0 0 32px; height: 32px; border-radius: 50%; background: #123a6e; color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+.smi-timeline { list-style: none; padding: 0; margin: 20px 0 0; border-left: 3px solid #123a6e; }
 .smi-timeline li { padding: 4px 0 4px 16px; }
-.smi-timeline b { color: #d2151e; margin-right: 8px; }
+.smi-timeline b { color: #123a6e; margin-right: 8px; }
 .smi-table { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.08); margin: 0; }
-.smi-table thead th { background: #d2151e; color: #fff; border: 0; font-weight: 600; white-space: nowrap; }
+.smi-table thead th { background: #123a6e; color: #fff; border: 0; font-weight: 600; white-space: nowrap; }
 .smi-table td { vertical-align: middle; }
 .smi-map { width: 100%; height: 100%; min-height: 420px; border: 0; border-radius: 6px; }
 .section-head .title, .on-show-slider .title { text-transform: none; }
@@ -45,7 +45,7 @@
 .smi-cert { display: block; background: #fff; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,.1); padding: 10px; text-align: center; color: #222; }
 .smi-cert img { width: 100%; height: 300px; object-fit: contain; background: #f4f4f4; }
 .smi-cert span { display: block; font-size: 14px; font-weight: 600; margin-top: 8px; }
-.smi-cert:hover { box-shadow: 0 8px 18px rgba(210,21,30,.25); }
+.smi-cert:hover { box-shadow: 0 8px 18px rgba(18,58,110,.25); }
 .smi-map { height: calc(100% - 70px); }
 .smi-person .avatar { overflow: hidden; }
 .smi-person .avatar img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
@@ -55,7 +55,7 @@
 .smi-cert-top { display: block; margin-bottom: 18px; background: #f4f4f4; border-radius: 4px; text-align: center; }
 .smi-cert-top img { height: 260px; width: auto; max-width: 100%; object-fit: contain; }
 .smi-logo { background: #fff; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.08); height: 110px; display: flex; align-items: center; justify-content: center; padding: 18px 22px; transition: transform .2s, box-shadow .2s; }
-.smi-logo:hover { transform: translateY(-4px); box-shadow: 0 8px 28px rgba(210,21,30,.2); }
+.smi-logo:hover { transform: translateY(-4px); box-shadow: 0 8px 28px rgba(18,58,110,.2); }
 .smi-logo img { max-width: 100%; max-height: 64px; width: auto; height: auto; object-fit: contain; }
 .smi-logo-text span { font-weight: 700; font-size: 17px; color: #3a3a3a; text-align: center; letter-spacing: .5px; line-height: 1.2; }
 /* customer logo marquee: scrolls left to right */
@@ -77,7 +77,7 @@
 .smi-hero-static .container { width: 100%; }
 .smi-hero-static h1 { color: #fff; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 65px; line-height: 80px; letter-spacing: 2px; margin: 0 0 24px; text-shadow: 0 2px 12px rgba(0,0,0,.35); }
 .smi-hero-static p { max-width: 640px; font-family: 'Poppins', sans-serif; font-size: 18px; line-height: 30px; margin: 0 0 40px; text-shadow: 0 1px 8px rgba(0,0,0,.5); }
-.smi-hero-btn { display: inline-block; background: #d2151e; color: #fff; padding: 15px 30px; margin-right: 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; }
+.smi-hero-btn { display: inline-block; background: #123a6e; color: #fff; padding: 15px 30px; margin-right: 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; }
 .smi-hero-btn:hover { color: #fff; opacity: .9; }
 @media (max-width: 991px) { .smi-hero-static { text-align: center; } .smi-hero-static h1 { font-size: 32px; line-height: 38px; } .smi-hero-static p { font-size: 14px; line-height: 22px; margin-left: auto; margin-right: auto; } }
 @media (max-width: 575px) { .smi-hero-static h1 { font-size: 22px; line-height: 28px; } .smi-hero-btn { padding: 10px 20px; margin: 0 4px; } }
@@ -107,7 +107,7 @@
 .smi-cert-gallery .smi-cert span { min-height: 44px; display: flex; align-items: center; justify-content: center; margin-top: 10px; line-height: 1.3; }
 
 /* ===== Card design refresh ===== */
-:root { --smi-red: #d2151e; --smi-shadow: 0 3px 10px rgba(20,20,40,.09); --smi-shadow-hover: 0 8px 20px rgba(210,21,30,.2); }
+:root { --smi-red: #123a6e; --smi-shadow: 0 3px 10px rgba(20,20,40,.09); --smi-shadow-hover: 0 8px 20px rgba(18,58,110,.2); }
 .smi-card, .service-box.style1, .smi-person, .smi-dept, .smi-cert, .smi-logo, .smi-goal, .project-bx .dlab-media {
   border-radius: 12px;
 }
@@ -117,15 +117,15 @@
   box-shadow: var(--smi-shadow); transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
 }
 .smi-card::after, .service-box.style1::after, .smi-person::after, .smi-cert::after, .smi-logo::after {
-  content: ""; position: absolute; left: 0; bottom: 0; height: 4px; width: 0; background: linear-gradient(90deg, var(--smi-red), #ff5a4f); transition: width .4s ease;
+  content: ""; position: absolute; left: 0; bottom: 0; height: 4px; width: 0; background: linear-gradient(90deg, var(--smi-red), #3b82d6); transition: width .4s ease;
 }
 .smi-card:hover, .service-box.style1:hover, .smi-person:hover, .smi-cert:hover, .smi-logo:hover {
-  transform: translateY(-8px); box-shadow: var(--smi-shadow-hover); border-color: rgba(210,21,30,.25);
+  transform: translateY(-8px); box-shadow: var(--smi-shadow-hover); border-color: rgba(18,58,110,.25);
 }
 .smi-card:hover::after, .service-box.style1:hover::after, .smi-person:hover::after, .smi-cert:hover::after, .smi-logo:hover::after { width: 100%; }
 
 /* icon cards: icon in a tinted circle that fills on hover */
-.smi-card .icon-bx-sm { width: 76px; height: 76px; border-radius: 50%; background: rgba(210,21,30,.09); display: flex; align-items: center; justify-content: center; transition: background .3s, transform .3s; }
+.smi-card .icon-bx-sm { width: 76px; height: 76px; border-radius: 50%; background: rgba(18,58,110,.09); display: flex; align-items: center; justify-content: center; transition: background .3s, transform .3s; }
 .smi-card .icon-bx-sm i { font-size: 38px; line-height: 1; transition: color .3s; }
 .smi-card:hover .icon-bx-sm { background: var(--smi-red); transform: rotate(-6deg) scale(1.05); }
 .smi-card:hover .icon-bx-sm i { color: #fff !important; }
@@ -133,17 +133,17 @@
 
 /* service cards */
 .service-box.style1 { padding: 34px 20px 28px; box-shadow: var(--smi-shadow); }
-.service-box.style1 .icon-xl { width: 110px; height: 110px; border-radius: 50%; background: rgba(210,21,30,.08); display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto; transition: background .3s, transform .3s; }
+.service-box.style1 .icon-xl { width: 110px; height: 110px; border-radius: 50%; background: rgba(18,58,110,.08); display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto; transition: background .3s, transform .3s; }
 .service-box.style1:hover .icon-xl { background: var(--smi-red); transform: scale(1.06); }
 .service-box.style1:hover .icon-xl i, .service-box.style1:hover .icon-xl a { color: #fff !important; }
 .service-box.style1 .title { font-weight: 600; font-size: 20px; }
 
 /* leadership cards */
-.smi-person { padding: 34px 20px 30px; background: linear-gradient(180deg, #fff 0%, #fff 55%, #fdf3f3 100%); }
-.smi-person .avatar { width: 104px; height: 104px; border: 4px solid #fff; box-shadow: 0 0 0 3px var(--smi-red), 0 8px 20px rgba(210,21,30,.25); transition: transform .3s; }
+.smi-person { padding: 34px 20px 30px; background: linear-gradient(180deg, #fff 0%, #fff 55%, #f1f6fd 100%); }
+.smi-person .avatar { width: 104px; height: 104px; border: 4px solid #fff; box-shadow: 0 0 0 3px var(--smi-red), 0 8px 20px rgba(18,58,110,.25); transition: transform .3s; }
 .smi-person:hover .avatar { transform: scale(1.06); }
 .smi-person h4 { font-weight: 600; }
-.smi-person span { display: inline-block; margin-top: 4px; padding: 3px 12px; border-radius: 20px; background: rgba(210,21,30,.08); color: var(--smi-red); font-size: 13px; font-weight: 500; }
+.smi-person span { display: inline-block; margin-top: 4px; padding: 3px 12px; border-radius: 20px; background: rgba(18,58,110,.08); color: var(--smi-red); font-size: 13px; font-weight: 500; }
 
 /* department cards */
 .smi-dept { border: 1px solid rgba(20,20,40,.06); border-left: 4px solid var(--smi-red); box-shadow: var(--smi-shadow); transition: transform .3s, box-shadow .3s; }
@@ -180,5 +180,114 @@
 .bg-white .smi-marquee { --mq: #fff; }
 .smi-form-msg { margin-top: 14px; font-size: 14px; font-weight: 500; line-height: 1.5; border-radius: 6px; }
 .smi-form-msg.ok:not(:empty) { padding: 12px 14px; background: #e8f7ee; color: #176b3a; border: 1px solid #b6e3c7; }
-.smi-form-msg.err:not(:empty) { padding: 12px 14px; background: #fdecec; color: #a3131b; border: 1px solid #f3b9bc; }
+.smi-form-msg.err:not(:empty) { padding: 12px 14px; background: #e8f0fb; color: #0f3566; border: 1px solid #bcd2ef; }
 #smiSend[disabled] { opacity: .7; cursor: wait; }
+
+/* ===== SMI brand logo, built in CSS to match the supplied logo ===== */
+.smi-brand { --navy: #16286b; --green: #2f9e4a; --orange: #e8561c; --red: #e31b23; display: inline-block; color: #000; text-decoration: none !important; line-height: 1; }
+.smi-brand .b-row { display: flex; align-items: flex-end; }
+.smi-brand .b-mark { position: relative; display: inline-flex; align-items: flex-end; font-family: 'Poppins', 'Arial Black', Arial, sans-serif; font-weight: 900; color: var(--navy); letter-spacing: -.02em; line-height: .86; text-shadow: .04em .035em 0 rgba(0,0,0,.28); }
+.smi-brand .b-i { position: relative; display: inline-block; width: .2em; height: .66em; margin-left: .05em; }
+.smi-brand .b-i i { position: absolute; left: 0; right: 0; bottom: 0; height: .5em; background: var(--navy); }
+.smi-brand .b-i::before { content: ""; position: absolute; left: .01em; right: .01em; top: -.03em; height: .15em; border-radius: 50%; background: var(--orange); transform: rotate(-12deg); }
+.smi-brand .b-name { font-family: 'Poppins', Arial, sans-serif; font-weight: 700; color: var(--green); white-space: nowrap; }
+.smi-brand .b-cert { display: block; font-family: Arial, 'Poppins', sans-serif; font-weight: 700; color: #111; white-space: nowrap; }
+.smi-brand .b-cert em { font-style: normal; color: var(--red); }
+.smi-brand .b-tag { display: block; font-family: Cambria, 'Cambria Math', Georgia, 'Times New Roman', serif; font-weight: 700; color: #000; white-space: nowrap; text-align: center; }
+
+/* compact (header) */
+.smi-brand.compact { display: inline-flex; flex-direction: column; gap: 3px; }
+.smi-brand.compact .b-row { align-items: center; gap: 9px; }
+.smi-brand.compact .b-mark { font-size: 34px; }
+.smi-brand.compact .b-name { display: flex; flex-direction: column; gap: 2px; font-size: 14.5px; line-height: 1; letter-spacing: .2px; }
+.smi-brand.compact .b-cert { font-size: 8.6px; letter-spacing: .1px; }
+
+/* full lockup (footer): everything scales with the width of the box */
+.smi-brand.full { container-type: inline-size; display: block; width: 100%; }
+.smi-brand.full .b-row { align-items: center; gap: 4cqw; }
+.smi-brand.full .b-mark { font-size: 9.6cqw; }
+.smi-brand.full .b-name { font-size: 4.55cqw; letter-spacing: .02em; }
+.smi-brand.full .b-cert { font-size: 2.1cqw; text-align: right; margin: 1.6cqw 1cqw 0 0; }
+.smi-brand.full .b-tag { font-size: 2.75cqw; margin-top: 2cqw; }
+.smi-foot-plate { display: block; max-width: 380px; background: #fff; border-radius: 12px; padding: 16px 18px 14px; box-shadow: 0 6px 22px rgba(0,0,0,.35); }
+.smi-foot-plate a { display: block; }
+.logo-header .smi-brand { margin-top: 0; }
+@media (max-width: 991px) { .smi-brand.compact .b-mark { font-size: 28px; } .smi-brand.compact .b-name { font-size: 12.5px; } .smi-brand.compact .b-cert { font-size: 7.6px; } }
+@media (max-width: 400px) { .smi-brand.compact .b-cert { display: none; } }
+.smi-brand span, .smi-brand em { text-transform: none; }
+.smi-brand .b-name, .smi-brand .b-name span { color: var(--green) !important; letter-spacing: .2px !important; font-size: inherit !important; font-weight: 700 !important; text-transform: none !important; padding: 0 !important; margin: 0 !important; background: none !important; opacity: 1 !important; line-height: 1 !important; }
+.smi-brand.compact .b-name span { display: block; }
+.smi-brand.full .b-name { letter-spacing: .02em !important; }
+.smi-brand .b-cert, .smi-brand .b-cert em { letter-spacing: .1px !important; }
+.smi-brand .b-cert { color: #111 !important; }
+.smi-brand .b-cert em { color: var(--red) !important; }
+.smi-brand .b-tag { color: #000 !important; letter-spacing: 0 !important; }
+.smi-brand .b-mark { color: var(--navy) !important; }
+/* one-line brand: SMI mark + company name only */
+.smi-brand .b-cert, .smi-brand .b-tag { display: none !important; }
+.smi-brand.compact { display: inline-flex; flex-direction: row; align-items: center; }
+.smi-brand.compact .b-row { gap: 8px; }
+.smi-brand.compact .b-mark { font-size: 30px; }
+.smi-brand.compact .b-name, .smi-brand.compact .b-name span { display: inline !important; font-size: 12.4px !important; letter-spacing: .15px !important; white-space: nowrap; }
+.smi-brand.full .b-row { justify-content: center; }
+.smi-brand.full .b-mark { font-size: 11cqw; }
+.smi-brand.full .b-name { font-size: 5cqw !important; }
+.smi-foot-plate { padding: 14px 18px; }
+@media (max-width: 991px) { .smi-brand.compact .b-mark { font-size: 26px; } .smi-brand.compact .b-name, .smi-brand.compact .b-name span { font-size: 11px !important; } }
+@media (max-width: 400px) { .smi-brand.compact .b-mark { font-size: 24px; } .smi-brand.compact .b-name, .smi-brand.compact .b-name span { font-size: 9.6px !important; } }
+.smi-brand .b-i { transform: translateY(-.075em); }
+.logo-header.mostion { display: flex; align-items: center; height: 100%; min-height: 68px; }
+.logo-header.mostion > a { display: flex; align-items: center; }
+.logo-header.d-md-block > a { display: inline-flex; }
+.smi-brand.compact .b-name, .smi-brand.compact .b-name span { font-size: 12.9px !important; }
+@media (max-width: 575px) {
+  .smi-brand.compact .b-mark { font-size: 26px; }
+  .smi-brand.compact .b-name, .smi-brand.compact .b-name span { white-space: normal !important; font-size: 11.5px !important; line-height: 1.1 !important; }
+  .smi-brand.compact .b-name { display: block !important; max-width: 96px; }
+}
+/* the I: dot top flush with the cap height of S and M, stem down to the baseline (as in the supplied logo) */
+.smi-brand .b-i { width: .21em; height: .74em; margin-left: .045em; }
+.smi-brand .b-i i { height: .5em; }
+.smi-brand .b-i::before { top: -.012em; height: .185em; left: 0; right: 0; transform: rotate(-10deg); }
+.smi-brand .b-i i { height: .52em; }
+.smi-brand .b-i::before { top: .018em; height: .18em; }
+.smi-brand.compact .b-mark { font-size: 36px; }
+.smi-brand.compact .b-row { gap: 9px; }
+@media (max-width: 991px) { .smi-brand.compact .b-mark { font-size: 30px; } }
+@media (max-width: 575px) { .smi-brand.compact .b-mark { font-size: 30px; } }
+/* ===== final SMI mark: full-height I with the orange dot floating above (as in the supplied logo) ===== */
+.smi-brand { --navy: #123a6e; --orange: #e4600f; }
+.smi-brand .b-mark { color: var(--navy) !important; }
+.smi-brand .b-i { width: .2em; height: .71em; margin-left: .05em; transform: translateY(-.075em); overflow: visible; }
+.smi-brand .b-i i { height: 100%; bottom: 0; background: var(--navy); }
+.smi-brand .b-i::before { left: -.005em; right: -.005em; top: -.15em; height: .095em; border-radius: 50% 50% 10% 10% / 100% 100% 30% 30%; transform: none; background: var(--orange); }
+.smi-brand .b-mark, .smi-brand .b-i { font-size: inherit; }
+.smi-brand.compact .b-mark { font-size: 36px !important; }
+.smi-brand .b-i { font-size: inherit !important; line-height: 0 !important; display: inline-block !important; }
+@media (max-width: 991px) { .smi-brand.compact .b-mark { font-size: 30px !important; } }
+@media (max-width: 575px) {
+  .smi-brand.compact .b-mark { font-size: 27px !important; }
+  .smi-brand.compact .b-name { max-width: 118px !important; }
+  .smi-brand.compact .b-name, .smi-brand.compact .b-name span { font-size: 11px !important; }
+}
+/* slightly wider I (stem thickness closer to the M's vertical bars) */
+.smi-brand .b-i { width: .27em; margin-left: .06em; }
+.smi-brand .b-i::before { left: -.01em; right: -.01em; }
+/* I: slightly slimmer, with the same offset shadow as the S and M */
+.smi-brand .b-i { width: .235em; margin-left: .055em; }
+.smi-brand .b-i i { box-shadow: .04em .035em 0 rgba(0,0,0,.28); }
+.smi-brand .b-i::before { left: -.005em; right: -.005em; }
+/* I raised so its base sits on the same line as S and M (top edge and dot unchanged) */
+.smi-brand .b-i { height: .685em; transform: translateY(-.1em); }
+.smi-brand .b-i { height: .715em; transform: translateY(-.0815em); }
+/* anchor the I to the text baseline so its base is always level with S and M, at every size */
+.smi-brand .b-mark { display: inline-block !important; }
+.smi-brand .b-i { display: inline-block !important; vertical-align: baseline !important; transform: none !important; height: .715em; margin-bottom: 0; }
+.smi-brand .b-i { height: .70em; }
+
+/* ===== SMI blue theme: footer and extra surfaces ===== */
+.site-footer .footer-top { background-color: #0a1d3b !important; background-image: none !important; }
+.site-footer .footer-bottom { background-color: #07142b !important; }
+.site-footer .footer-title, .site-footer h5 { color: #fff; }
+.site-footer a:hover { color: #7db6f2; }
+.smi-foot-plate { box-shadow: 0 6px 22px rgba(0,0,0,.4); }
